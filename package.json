@@ -1,7 +1,7 @@
 {
     "name": "stylelint-config-whq",
     "version": "1.0.0",
-    "description": "Shareable styleint config from WHQ",
+    "description": "Shareable stylelint config from WHQ",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
