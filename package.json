@@ -3,9 +3,6 @@
     "version": "1.0.0",
     "description": "Shareable stylelint config from WHQ",
     "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "dependencies": {
         "stylelint-config-standard": "^16.0.0",
         "stylelint-no-unsupported-browser-features": "^1.0.0",
