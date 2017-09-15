@@ -5,14 +5,7 @@ module.exports = {
     "plugins": ["stylelint-order", "stylelint-no-unsupported-browser-features"],
     "defaultSeverity": "warning",
     "rules": {
-        "plugin/no-unsupported-browser-features": [true, {
-            "ignore": [
-                "css3-cursors",
-                "flexbox",
-                "object-fit",
-                "viewport-units"
-            ]
-        }],
+        "plugin/no-unsupported-browser-features": true,
         "at-rule-empty-line-before": null,
         "declaration-empty-line-before": null,
         "rule-empty-line-before": null,
