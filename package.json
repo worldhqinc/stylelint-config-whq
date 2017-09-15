@@ -1,0 +1,27 @@
+{
+    "name": "stylelint-config-whq",
+    "version": "1.0.0",
+    "description": "Shareable styleint config from WHQ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "stylelint-config-standard": "^16.0.0",
+        "stylelint-no-unsupported-browser-features": "^1.0.0",
+        "stylelint-order": "^0.4.3"
+    },
+    "peerDependencies": {
+        "stylelint": "^7.8.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://worldhqinc@github.com/worldhqinc/stylelint-config-whq.git"
+    },
+    "author": "WHQ",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/worldhqinc/stylelint-config-whq/issues"
+    },
+    "homepage": "https://github.com/worldhqinc/stylelint-config-whq#readme"
+}
