@@ -117,6 +117,8 @@ module.exports = {
             "cursor",
             "pointer-events",
             "content",
+            "counter-increment",
+            "counter-reset",
             "quotes"
         ],
         "selector-type-no-unknown": null
