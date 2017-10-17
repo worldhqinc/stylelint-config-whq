@@ -1,6 +1,6 @@
 {
     "name": "stylelint-config-whq",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "Shareable stylelint config from WHQ",
     "main": "index.js",
     "dependencies": {
