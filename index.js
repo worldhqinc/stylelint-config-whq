@@ -1,16 +1,13 @@
-"use strict"
+"use strict";
 
 module.exports = {
     "extends": "stylelint-config-standard",
     "plugins": ["stylelint-order", "stylelint-no-unsupported-browser-features"],
     "defaultSeverity": "warning",
     "rules": {
-        "plugin/no-unsupported-browser-features": true,
         "at-rule-empty-line-before": null,
         "declaration-empty-line-before": null,
-        "rule-empty-line-before": null,
         "max-empty-lines": null,
-        "shorthand-property-no-redundant-values": null,
         "order/order": [
             "custom-properties",
             "declarations"
@@ -160,6 +157,11 @@ module.exports = {
             "list-style-type",
             "quotes"
         ],
-        "selector-type-no-unknown": null
+        "plugin/no-unsupported-browser-features": true,
+        "rule-empty-line-before": ["always-multi-line"],
+        "selector-type-no-unknown": null,
+        "shorthand-property-no-redundant-values": null,
+        "string-quotes": "single",
+        "value-keyword-case": "lower"
     }
-}
+};
