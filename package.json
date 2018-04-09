@@ -10,7 +10,7 @@
         "stylelint-order": "^0.4.3"
     },
     "peerDependencies": {
-        "stylelint": "^8.4.0"
+        "stylelint": "^9.2.0"
     },
     "repository": {
         "type": "git",
